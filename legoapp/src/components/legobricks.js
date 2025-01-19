@@ -21,7 +21,7 @@ function LegoBrick({ delay, positionX = Math.random() * 100, positionY = Math.ra
       },
       {
         y: '100vh',
-        rotation: 1000,
+        rotation: 100,
         opacity: 1,
         duration: 5,
         delay: delay,
@@ -72,13 +72,7 @@ function LegoAnimation() {
     { x: 60, y: -70 },
     { x: 70, y: -60 },
     { x: 80, y: -90 },
-    { x: 90, y: -80 },
-    { x: 5, y: -100 },
-    { x: 10, y: -50 }, 
-    { x: 20, y: -30 },
-    { x: 30, y: -40 },
-    { x: 40, y: -20 },
-    { x: 50, y: -10 },
+    
     { x: 60, y: -70 },
     { x: 70, y: -60 },
     { x: 80, y: -90 },
@@ -109,7 +103,7 @@ function LegoAnimation() {
         <LegoBrick key={i} positionX={pos.x} positionY={pos.y} delay={Math.random() * 2} />
       ))}
       <div className="absolute inset-0 flex justify-center items-center">
-        <h1 className="font-bold text-7xl">Lego</h1>
+        <h1 className="font-bold text-8xl">Lego Star Wars</h1>
       </div>
     </div>
   );

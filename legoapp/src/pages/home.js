@@ -1,5 +1,5 @@
 import React from 'react';
-import Gallery from '../components/gallery';
+
 import Brick from '../components/legobricks';
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
 
     <div>
       <Brick/>
-      <Gallery/>
+   
     </div>
     
 );

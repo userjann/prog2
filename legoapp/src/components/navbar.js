@@ -9,12 +9,13 @@ const Navbar = () => {
           <Link to="/" className="text-gray-700 text-lg font-semibold hover:text-gray-400">
             Home
           </Link>
-          <Link to="/sets" className="text-gray-700 text-lg font-semibold hover:text-gray-400">
-            Sets
+          <Link to="/foto" className="text-gray-700 text-lg font-semibold hover:text-gray-400">
+            Fotos
           </Link>
-          <Link to="/moc" className="text-gray-700 text-lg font-semibold hover:text-gray-400">
-            MOC's
+          <Link to="/video" className="text-gray-700 text-lg font-semibold hover:text-gray-400">
+            Film
           </Link>
+        
           <Link to="/about" className="text-gray-700 text-lg font-semibold hover:text-gray-400">
             About
           </Link>
