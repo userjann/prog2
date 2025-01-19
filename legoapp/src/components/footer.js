@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="/about" className="link link-hover text-sm">About</a>
         <a href="/foto" className="link link-hover text-sm">Fotos</a>
         <a href="/video" className="link link-hover text-sm">Video</a>
-        <a href="/sets" className="link link-hover text-sm">sets</a>
+      
       </nav>
       
       
